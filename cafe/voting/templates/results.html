@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dessert Voting Results</title>
+</head>
+<body>
+    <h1>Voting Results</h1>
+    {% for dessert in desserts %}
+        <p>{{ dessert.name }}: {{ dessert.votes }} votes</p>
+    {% endfor %}
+</body>
+</html>

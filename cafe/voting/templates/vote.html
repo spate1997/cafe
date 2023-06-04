@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote for Dessert</title>
+</head>
+<body>
+    <h1>Vote for your favorite dessert!</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Vote</button>
+    </form>
+</body>
+</html>
