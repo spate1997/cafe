@@ -1,0 +1,26 @@
+[
+    {
+        "model": "voting.dessert",
+        "pk": 1,
+        "fields": {
+            "name": "Ice Cream",
+            "votes": 0
+        }
+    },
+    {
+        "model": "voting.dessert",
+        "pk": 2,
+        "fields": {
+            "name": "Chocolate Cake",
+            "votes": 0
+        }
+    },
+    {
+        "model": "voting.dessert",
+        "pk": 3,
+        "fields": {
+            "name": "Cheesecake",
+            "votes": 0
+        }
+    }
+]
